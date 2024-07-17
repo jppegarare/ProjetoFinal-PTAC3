@@ -1,13 +1,13 @@
-import Image from "next/image";
 import "./styles.css";
-import Link from "next/link";
-import { useEffect, useState } from "react";
+import Main from "./componentes/Main"
+
+
 
 export default function Home() {
 
   return (
     <main>
-      
+      <Main />
     </main>
   );
 }

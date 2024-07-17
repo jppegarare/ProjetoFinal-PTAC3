@@ -3,8 +3,8 @@ const nextConfig = {
 
     images:{
         domains:["m.media-amazon.com",
-                 "rottentomatoes.com"   
-                 "flixster.com"   
+                 "rottentomatoes.com",
+                 "resizing.flixster.com"
         ]
     }
 };
