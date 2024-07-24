@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
+/* estilização do main */
 .main{
     display: flex;
     flex-direction: row;
@@ -11,16 +12,16 @@
     background: linear-gradient(to bottom, rgb(0, 0, 0), #00AAE2)
 }
 
-
+/* estilização do card */
 .card{
     width: 250px;
-    height: 450px;
+    height: 500px;
     margin: 10px;
     padding: 10px;
     border: 5px solid #07c1ff;
     border-radius: 10px;
     box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
-    background-color: #07c1ff;
+    background-color: #616cfa;
     font-family: Roboto Mono;
 }
   
@@ -45,7 +46,7 @@
     margin-top: 5px;
   }
 
-
+/* estilização do footer */
   .footer{
     background-color: #00AAE2;
     color: #000;
@@ -67,6 +68,7 @@
     margin-right: 10px;
   }
 
+  /* estilização do header */
   .header {
     background-color: #000000;
     color: #fff;
@@ -101,3 +103,26 @@
     color: red;
 
   }
+
+    /* estilização do loading */
+
+.loading{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.pesquisa{
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    height: 40px;
+    border: 1px solid #272727;
+    border-radius: 5px;
+    background-color: #272727;
+}
+.divPesq{
+    justify-content: center;
+    text-align: center;
+}

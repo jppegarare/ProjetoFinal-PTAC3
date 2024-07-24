@@ -5,10 +5,10 @@ export default async function Header() {
         <header className={styles.header}> 
             <Image width={60} height={60} src={'/logo.png'}/>
             <p>
-                <span className={styles.span1}>Net </span>
+                <span className={styles.span1}>Net</span>
                 <span className={styles.span2}>Prime</span>
             </p>
-            <button>add</button>
+            <Image width={60} height={60} src={'/profile.png'}/>
         </header>
     );
   }
